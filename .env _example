@@ -1,0 +1,5 @@
+NODE_ENV='development' // development|testing|production
+PORT=3001
+MONGODB_URI='mongodb://127.0.0.1:27017/db_name'
+MONGODB_URI_TEST='mongodb://127.0.0.1:27017/db_name_test'
+JWT_SECRET='secret'
