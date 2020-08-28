@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-// Add unique validator if you need it.
+/* Add unique validator if you need it. */
 // const uniqueValidator = require('mongoose-unique-validator')
 
 const schema = mongoose.Schema({
@@ -16,7 +16,7 @@ const schema = mongoose.Schema({
   },
 })
 
-// Add unique validator to schema
+/* Add unique validator to schema */
 // schema.plugin(uniqueValidator)
 
 schema.pre('save', (next) => {
